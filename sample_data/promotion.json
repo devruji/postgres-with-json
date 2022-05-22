@@ -1,0 +1,15 @@
+[
+	{
+		"sourceId": "promotion-management", 
+		"msgTime": "2020-03-21T04:02:56.490534+00:00", 
+		"msgType": "PromotionTimeline",
+		"promotionId": "PROMOTION_2021_1111",
+		"promotionName": "11/11 2021 Big Deal!!",
+		"startTime": "2021-11-11T00:00:00Z",
+		"endTime": "2021-11-11T23:59:59Z",
+		"products": [
+			"SKU_001",
+			"SKU_002"
+		]
+	}
+]

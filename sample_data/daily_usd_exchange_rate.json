@@ -1,0 +1,11 @@
+[
+	{
+		"sourceId": "accounting-system", 
+		"msgTime": "2021-08-17T00:00:00+07:00",
+		"msgType": "DAILY_USD_EXCHANGE_RATE", 
+		"date": "2021-08-17",
+		"rates": {
+			"THB": 32.48
+		}
+	}
+]

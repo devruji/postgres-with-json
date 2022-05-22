@@ -1,0 +1,80 @@
+[
+	{
+		"sourceId": "order-management", 
+		"msgTime": "2021-08-17T12:58:34.367016+00:00", 
+		"msgType": "SalesOrder",
+		"orderType": "SALES_ORDER", 
+		"salesOrderId": "SO_001",
+		"shopId": "SHOP_01",
+		"createdTime": "2021-08-17T10:32:27.423491+00:00",
+		"products": [
+			{
+				"lineNumber": "1",
+				"productId": "SKU_001",
+				"quantity": 1,
+				"grossAmount": 100.00,
+				"items": [
+					{
+						"itemId": "ITEM_001",
+						"type": "Item",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"lineNumber": "2",
+				"productId": "SKU_002",
+				"quantity": 1,
+				"grossAmount": 600.00,
+				"items": [
+					{
+						"itemId": "ITEM_002",
+						"type": "Item",
+						"quantity": 2
+					}
+				]
+			},
+			{
+				"lineNumber": "3",
+				"productId": "DISCOUNT_50",
+				"quantity": 1,
+				"grossAmount": -50.00,
+				"referenceLineNumber": "2",
+				"items": [
+					{
+						"itemId": "DISCOUNT_50",
+						"type": "Discount",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"lineNumber": "4",
+				"productId": "DISCOUNT_10",
+				"quantity": 1,
+				"grossAmount": -10.00,
+				"items": [
+					{
+						"itemId": "DISCOUNT_10",
+						"type": "Discount",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"lineNumber": "5",
+				"productId": "SHIPPING_FEE",
+				"quantity": 1,
+				"grossAmount": 20.00,
+				"items": [
+					{
+						"itemId": "SHIPPING_FEE",
+						"type": "Service",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"currencyCode": "THB"
+	}
+]
